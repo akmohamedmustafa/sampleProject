@@ -24,6 +24,7 @@ public class HelloTest {
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://localhost:8087/HelloWorld.war/");
+		//some changes to auto build
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
